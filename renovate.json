@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "minimumReleaseAge": "7 days",
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "minimumReleaseAge": "0 days"
+  },
+  "prHourlyLimit": 2,
+  "updateNotScheduled": false,
+  "timezone": "America/New_York",
+  "schedule": [
+    "every weekend"
+  ],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchPackageNames": ["cypress"],
+      "minimumReleaseAge": "0 days"
+    }
+  ]
+}
